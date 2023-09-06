@@ -4,7 +4,32 @@ This is an exact-as-reasonable replica of the same thing as this web component p
 
 https://github.com/CodersCampus/ApiCallWebComponent
 
-This project is a little more like an SPA than the web component example - which is a web page with a Web Component installed, but the distinction is probably meaningless, for the purpose of this app.
+This project is a little more like an SPA than the web component example noted above - which is a web page with a Web Component installed, but the distinction is probably meaningless, for the purpose of this comparison.
+
+## How was this created?
+
+I had a working web component written using Lit per above.
+I created a react app using create react app - same thing everybody has used for years.
+I gave chatgpt my one typescript file for the web component. Asked for the same thing, only in React.
+
+Pasted it in a file called ApiElement.js
+
+Imported same into app.js
+
+Put this line inside app.js `<ApiElement></ApiElement>`
+
+That's it.
+
+## How to run it:
+
+Everything below is verbatim what comes with the Create React App.
+
+Follow it.
+
+<hr>
+<hr>
+<hr>
+
 
 ## Getting Started with Create React App
 
